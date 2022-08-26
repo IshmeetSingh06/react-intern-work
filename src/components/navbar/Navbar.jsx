@@ -7,8 +7,17 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
+    window.scroll(0, 0);
     navigate("/download");
   };
+
+  const handletrade = () => {
+    window.scroll(900,900);
+  };
+  const handleContact = () => {
+    window.scrollTo(6000,6000)
+  };
+
   return (
     <header className="nav-collapsed">
       <nav>
@@ -28,34 +37,30 @@ const Navbar = () => {
             activeclassname="active"
             aria-current="page"
             className="nav-link magnet"
-            href="/about"
+            onClick={handletrade}
           >
             <span>
               <p>How To Trade</p>
             </span>
           </a>
-          <a activeclassname="active" className="nav-link magnet" href="/">
+          <a activeclassname="active" className="nav-link magnet" href="/faq">
             <span styles="">
               <p>FAQ</p>
             </span>
           </a>
-          <a activeclassname="active" className="nav-link magnet" href="/">
+          <a
+            activeclassname="active"
+            className="nav-link magnet"
+            onClick={handleContact}
+          >
             <span styles="">
               <p>Contact</p>
             </span>
           </a>
-          {/* <button
-            className="button-download"
-            onClick={handleClick}
-            href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
-          >
-            <span>Download</span>
-          </button> */}
           <Link
             className="button-download"
             to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
             target="_blank"
-    
             download
             onClick={handleClick}
           >

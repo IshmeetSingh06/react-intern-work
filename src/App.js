@@ -5,7 +5,7 @@ import Download from "./pages/donwload/download"
 import Privacy from "./pages/privacy/Privacy";
 import Terms from "./pages/terms/Terms"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Faq from "./pages/faq/Faq";
+import Faq from "./components/faq/Faq";
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
         <Route path="download" element={<Download />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="terms" element={<Terms />} />
-        <Route path="faq"element={<Faq/>}/>
       </Routes>
       <Footer />
     </Router>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./HowToTrade.css";
+import { Link, useNavigate } from "react-router-dom";
 import finalimg from "../../assets/final-image.png";
 import downlaodimg from "../../assets/download.png";
 import opinion from "../../assets/opinion.svg";
@@ -12,8 +13,15 @@ import thumbs from "../../assets/thumbs.png";
 import secure from "../../assets/secure.png";
 import privacy from "../../assets/trust.png";
 import trust from "../../assets/trust1.png";
+import Faq from "../../components/faq/Faq";
+import Faq1 from "../../components/faq/Faq";
 
 const HowToTrade = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/download");
+  };
+
   return (
     <div>
       <section className="p-home">
@@ -22,7 +30,7 @@ const HowToTrade = () => {
           <div className="page-top">
             <div className="page-top-text-side">
               <div className="text-1">
-                <span>Earn</span> From Your <br /> Skills
+                <span>Earn</span> From Your Skills
               </div>
               <div className="text-2">
                 <span>Analyze.</span>
@@ -37,9 +45,22 @@ const HowToTrade = () => {
                 <button className="getapplink-button">Get App Link</button>
               </div>
               <div className="download-text">
-                <img className="download-image" src={downlaodimg} />
+                <Link
+                  to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+                  target="_blank"
+                  download
+                  onClick={handleClick}
+                >
+                  <img
+                    className="download-image"
+                    src={downlaodimg}
+                    onCanPlay
+                    onClick={handleClick}
+                  />
+                </Link>
+
                 <div className="availablity-info">
-                  Available for <span>Ios&Android</span>
+                  Available for <a href="/">Android</a>
                 </div>
               </div>
             </div>
@@ -80,42 +101,66 @@ const HowToTrade = () => {
             <div className="background-how-to-trade">
               <div className="title-how-to-trade">How To Trade on TakTik?</div>
 
-              <div className="app-images-1">
-                <img className="app-image" src={img1} />
-                <div className="text-material">
-                  <div className="kal">
-                    <div>
-                      Predict the outcome & TakTik to maximize your earnings
+              <div className="howtotrade-container">
+                <div className="colummn-1">
+                  <img className="app-image" src={img1} />
+
+                  <div className="text-material-1">
+                    <br />
+                    <div className="bold-text">
+                      Purchase the shares of predicted outcome
+                    </div>
+                    <br />
+                    <div className="small-text">
+                      Click on the option and set the <br /> Quantity, Price and
+                      Swip right to Buy
+                    </div>
+                  </div>
+
+                  <img className="app-image" src={img3}></img>
+                </div>
+                <div className="lines">
+                  <div className="line-1"></div>
+                  <div className="line-2"></div>
+                  <div className="line-3"></div>
+                </div>
+                <div className="colummn-2">
+                  <div className="text-material">
+                    <div className="bold-text">
+                      Select an event based on your expertise
+                    </div>
+                    <br />
+                    <div className="small-text">
+                      Predict the outcome & TakTik to <br /> maximize your
+                      earnings
                     </div>
                     <img className="thumb-img" src={thumbs}></img>
                   </div>
-                </div>
-              </div>
 
-              <div className="app-images-2">
-                <div className="text-material-1">
-                  <div>Purchase the shares of predicted outcome</div>
-                  <div>
-                    Click on the option and set the Quantity, Price and Swip
-                    right to Buy
-                  </div>
-                </div>
-                <img className="app-image-2" src={img2}></img>
-              </div>
+                  <img className="app-image" src={img2}></img>
 
-              <div className="app-images-3">
-                <img className="app-image" src={img3}></img>
-                <div className="text-material-3">
-                  <div>Awaits results, Earn & Withdraw profits</div>
-                  <div>
-                    If your option is correct after the settlement period, your
-                    earning will be added to your wallet
+                  <div className="text-material-3">
+                    <div className="bold-text">
+                      Awaits results, Earn & Withdraw profits
+                    </div>
+                    <br />
+                    <div className="small-text">
+                      If your option is correct after the settlement period,
+                      your earning will be added to your wallet <br />
+                      <br />
+                      You can instantly withdraw using UPI
+                    </div>
                   </div>
-                  <div>You can instantly withdraw using UPI</div>
                 </div>
               </div>
             </div>
           </div>
+
+
+          <div className="faq-section">
+            <Faq1/>
+          </div>
+
 
           <div className="page-middle-2">
             <div className="why-us-title">Why Trust Us?</div>
@@ -146,7 +191,6 @@ const HowToTrade = () => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
     </div>

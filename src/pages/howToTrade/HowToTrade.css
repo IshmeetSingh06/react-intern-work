@@ -33,7 +33,6 @@
 
 .text-1 span {
     color: #1B9365;
-    ;
 }
 
 .get-app-link-input {
@@ -118,7 +117,7 @@
     color: #5B5A6C;
 }
 
-.availablity-info span {
+.availablity-info a {
     text-decoration: underline;
     color: #1B9365;
 }
@@ -158,36 +157,11 @@
 }
 
 .background-how-to-trade {
-    margin-left: 155px;
-    width: 1235px;
-    height: 1663px;
+    width: 80%;
+    margin-left: 156px;
     background: #0E0F13;
     border-radius: 62px;
-}
-
-.app-images-1 {
-    display: flex;
-    flex: row;
-    margin: auto;
-    justify-content: center;
-}
-
-.app-image {
-    width: 354px;
-    height: 506px;
-    border-right: 2px solid #46474A;
-}
-
-.app-image-2 {
-    width: 354px;
-    height: 506px;
-    border-left: 2px solid #46474A;
-}
-
-.page-bottom {
-    margin: auto;
-    justify-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .title-how-to-trade {
@@ -198,56 +172,18 @@
     text-align: center;
 }
 
-.text-material {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: center;
-    color: white;
-}
-
-.kal {
-    display: flex;
-    flex-direction: row;
-}
-
 .thumb-img {
     width: 141px;
     height: 141px;
 }
 
-.app-images-2 {
-    display: flex;
-    flex: row;
-    margin: auto;
-    justify-content: center;
-}
-
-.app-images-3 {
-    display: flex;
-    flex: row;
-    margin: auto;
-    justify-content: center;
-}
-
-.text-material-1 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
-    color: white;
-}
-
-.text-material-3 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: center;
-    color: white;
+.app-image {
+    width: 354px;
+    height: 456px;
 }
 
 .why-us-title {
-   margin-left: 157px;
+    margin-left: 157px;
     font-size: 48px;
     color: white;
     margin-bottom: 100px;
@@ -264,4 +200,177 @@
     justify-content: space-evenly;
     flex: row;
     margin-bottom: 80px;
+}
+
+.howtotrade-container {
+    display: flex;
+    flex-direction: row
+}
+
+.colummn-1 {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colummn-2 {
+    margin-left: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold-text {
+    width: 287px;
+    height: 61px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.small-text {
+    width: 287px;
+    height: 76px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.75);
+    opacity: 0.8;
+}
+
+.lines {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 183px;
+    height: 0px;
+    border: 1px solid #46474A;
+    background: #46474A;
+    transform: rotate(90deg);
+}
+
+.page-middle-2{
+    margin-top: 40px;
+}
+
+.line-2 {
+    width: 183px;
+    height: 0px;
+    margin-left: 20px;
+    margin-top: 350px;
+    background: #46474A;
+    border: 1px solid #46474A;
+    transform: rotate(90deg);
+}
+
+.line-3 {
+    width: 183px;
+    height: 0px;
+    margin-left: 20px;
+    margin-top: 350px;
+    border: 1px solid #46474A;
+    background: #46474A;
+    transform: rotate(90deg);
+}
+.faq-section{
+    margin-left: 157px;
+    margin-right: 147px;
+}
+@media only screen and (max-width: 1250px) {
+    .page-top {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .text-1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .page-top {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .text-1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .page-top {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .text-1 {
+        margin-top: 0px;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .text-2 {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .phone-number-input {
+        margin-left: 2px;
+        width: 195px;
+        height: 47px;
+    }
+
+    .getapplink-button {
+        width: 125px;
+        height: 47px;
+        font-size: 15px;
+    }
+
+    .download-image {
+        height: 52px;
+        width: 180px;
+    }
+    .availablity-info{
+        font-size: 15px;
+    }
+
+    .final-image{
+        margin-top: 40px;
+        width: 480px;
+        height: 400px;
+        margin-left: -60px;
+    }
+
+    .page-middle-1{
+        flex-direction: column;
+    }
+    .page-middle-items{
+        margin-block: 20px;
+    }
+
+    .why-us-title{
+        margin-top: 20px;
+        margin-left: 90px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .trust-items{
+        flex-direction: column;
+    }
+    .faq-section{
+        margin-left:20px;
+        margin-right: 20px;
+    }
 }
