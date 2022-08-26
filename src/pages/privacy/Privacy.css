@@ -1,0 +1,12 @@
+.privacy-container {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    margin-top: 0em;
+    overflow-x: hidden !important;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}

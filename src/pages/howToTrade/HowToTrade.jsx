@@ -5,11 +5,14 @@ import downlaodimg from "../../assets/download.png";
 import opinion from "../../assets/opinion.svg";
 import trade from "../../assets/trade.svg";
 import earn from "../../assets/earn.svg";
-import img1 from "../../assets/img-1.png"
+import img1 from "../../assets/img-1.png";
 import img2 from "../../assets/img-2.png";
 import img3 from "../../assets/img-3.png";
-import thumbs from "../../assets/thumbs.png"
-import whyus from "../../assets/whyus.png"
+import thumbs from "../../assets/thumbs.png";
+import secure from "../../assets/secure.png";
+import privacy from "../../assets/trust.png";
+import trust from "../../assets/trust1.png";
+
 const HowToTrade = () => {
   return (
     <div>
@@ -114,40 +117,36 @@ const HowToTrade = () => {
             </div>
           </div>
 
-          {/* <div className="why-us">
+          <div className="page-middle-2">
             <div className="why-us-title">Why Trust Us?</div>
-            <img className="trust-us" src={whyus}></img>
-          </div> */}
-
-          <div className="page-middle-1">
-            <div className="page-middle-items">
-              <img src={opinion}></img>
-              <div className="mid-font-1">Have An Opinion?</div>
-              <div className="bottom-font">
-                Select the event and purchase share of <br /> your future
-                prediction
+            <div className="trust-items">
+              <div className="page-middle-items">
+                <img className="trust-us-images" src={secure}></img>
+                <div className="mid-font-1">Secure</div>
+                <div className="bottom-font">
+                  All transactions here are SSL <br /> encrypted
+                </div>
               </div>
-            </div>
-            <div className="page-middle-items">
-              <img src={trade}></img>
-              <div className="mid-font-2">Trade on Local to Global events</div>
-              <div className="bottom-font">
-                Buy or sell your positions while <br /> the market is in
-                progress
+              <div className="page-middle-items">
+                <img className="trust-us-images" src={privacy}></img>
+                <div className="mid-font-2">Privacy</div>
+                <div className="bottom-font">
+                  We respect the value of your <br /> data and do not share with{" "}
+                  <br /> anyone without your consent
+                </div>
               </div>
-            </div>
-            <div className="page-middle-items">
-              <img src={earn}></img>
-              <div className="mid-font-3">Earn from what you know</div>
-              <div className="bottom-font">
-                Earn by making an early exit or wait for <br /> the event
-                outcome and if your position <br />
-                wins you make money
+              <div className="page-middle-items">
+                <img className="trust-us-images" src={trust}></img>
+                <div className="mid-font-3">Trust</div>
+                <div className="bottom-font">
+                  We are group of IITians, building this <br /> platform
+                  passionately for you. You can reach <br /> the founder at
+                  meetmanish@applytaktik.com
+                </div>
               </div>
             </div>
           </div>
 
-          <div></div>
         </div>
       </section>
     </div>

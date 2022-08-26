@@ -46,7 +46,14 @@ footer .footer-container {
 .media-links span{
     padding:8px
 }
-
+.number{
+    margin-left: 10px;
+}
+.container-1{
+    display: flex;
+    flex: row;
+    
+}
 .upi-logo {
     position: absolute;
     width: 128px;

@@ -1,0 +1,15 @@
+.download-container {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    margin-top: 0em;
+    overflow-x: hidden !important;
+}
+
+.download-img {
+    margin-left: 257px;
+    width: 885.26px;
+    height: 897px;
+}

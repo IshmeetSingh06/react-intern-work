@@ -5,8 +5,9 @@ header {
     top: 0;
     left: 0;
     z-index: 99;
-    transition: .1s ease 
+    transition: .1s ease
 }
+
 header nav {
     height: 100%;
     width: 80%;
@@ -36,16 +37,20 @@ header nav .nav-links .nav-link {
     height: 60px;
     background-color: #222;
     background: rgba(20, 20, 20, .5);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
     transition: .2s ease
 }
 
 .nav-collapsed .nav-link {
     font-size: 18px !important
 }
-.app-logo{
+
+.app-logo {
     height: 40px;
     width: 10px;
 }
+
 .magnet {
     cursor: pointer;
     user-select: none;
@@ -79,6 +84,21 @@ header nav .nav-links .nav-link {
     color: #f5f5f5
 }
 
+.button-download {
+    width: 141px;
+    padding: 7px;
+    background: #1B9365;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+}
+.button-download span{
+    color: #fff;
+    cursor: pointer;
+    margin-left: 25px;
+    font-weight: bold;
+    text-align: center;  
+}
 .nav-logo:hover {
     cursor: pointer
 }
@@ -95,11 +115,15 @@ header nav .nav-links .nav-link {
     position: absolute;
     bottom: -2px
 }
+
 header nav .line {
     position: absolute;
     width: 1232px;
     height: 0px;
-    left: 112px;
-    top: 96px;
     border: 2px solid #1A192B;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
 }

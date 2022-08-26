@@ -1,9 +1,14 @@
 import React from "react";
 import "./Navbar.css";
-import {Link} from "react-router-dom"
-import logo from "../../assets/logo.svg"
+import { Link, useNavigate } from "react-router-dom";
+import logo from "../../assets/logo.svg";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/download");
+  };
   return (
     <header className="nav-collapsed">
       <nav>
@@ -39,6 +44,23 @@ const Navbar = () => {
               <p>Contact</p>
             </span>
           </a>
+          {/* <button
+            className="button-download"
+            onClick={handleClick}
+            href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+          >
+            <span>Download</span>
+          </button> */}
+          <Link
+            className="button-download"
+            to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+            target="_blank"
+    
+            download
+            onClick={handleClick}
+          >
+            <span>Download</span>
+          </Link>
         </div>
       </nav>
     </header>

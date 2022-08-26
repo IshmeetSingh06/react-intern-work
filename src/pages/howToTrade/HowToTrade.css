@@ -11,6 +11,7 @@
 .page-top {
     display: flex;
     flex: row;
+    margin-top: 80px;
     margin-bottom: 80px;
     margin-left: 157px;
 }
@@ -27,7 +28,7 @@
     font-weight: 600;
     font-size: 55.2583px;
     line-height: 65px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .text-1 span {
@@ -38,7 +39,7 @@
 .get-app-link-input {
     display: flex;
     flex: row;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .getapplink-button {
@@ -70,7 +71,7 @@
     font-weight: 600;
     font-size: 35px;
     line-height: 41px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .text-2 :nth-child(1) {
@@ -244,19 +245,23 @@
     justify-content: center;
     color: white;
 }
-.why-us{
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-}
+
 .why-us-title {
-    text-align: center;
-    margin-bottom: 30px;
+   margin-left: 157px;
     font-size: 48px;
     color: white;
+    margin-bottom: 100px;
 }
-.trust-us{
-    width: 70%;
-    height: 200px;
 
+.trust-us-images {
+    height: 100px;
+    width: 100px;
+}
+
+.trust-items {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex: row;
+    margin-bottom: 80px;
 }
