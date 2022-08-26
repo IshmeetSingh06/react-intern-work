@@ -1,0 +1,105 @@
+header {
+    height: 150px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: .1s ease 
+}
+header nav {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #1A192B;
+}
+
+header nav .nav-links {
+    display: flex;
+    align-items: center
+}
+
+header nav .nav-links .nav-link {
+    color: #f5f5f5;
+    margin-left: 1em;
+    font-size: 20px;
+    position: relative;
+    padding: 1em
+}
+
+.nav-collapsed {
+    height: 60px;
+    background-color: #222;
+    background: rgba(20, 20, 20, .5);
+    transition: .2s ease
+}
+
+.nav-collapsed .nav-link {
+    font-size: 18px !important
+}
+.app-logo{
+    height: 40px;
+    width: 10px;
+}
+.magnet {
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: all .3s ease
+}
+
+.magnet span {
+    display: inline-block;
+    pointer-events: none;
+    transition: transform .3s cubic-bezier(.3, 1, .7, 1)
+}
+
+.magnet .nav-logo {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important
+}
+
+.nav-logo {
+    position: relative
+}
+
+.nav-logo img {
+    width: 60px
+}
+
+.nav-logo .initials {
+    font-family: rec;
+    font-size: 30px;
+    color: #f5f5f5
+}
+
+.nav-logo:hover {
+    cursor: pointer
+}
+
+.active span p {
+    position: relative
+}
+
+.active span p:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -2px
+}
+header nav .line {
+    position: absolute;
+    width: 1232px;
+    height: 0px;
+    left: 112px;
+    top: 96px;
+    border: 2px solid #1A192B;
+}

@@ -1,0 +1,262 @@
+.p-home {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    margin-top: 0em;
+    overflow-x: hidden !important;
+}
+
+.page-top {
+    display: flex;
+    flex: row;
+    margin-bottom: 80px;
+    margin-left: 157px;
+}
+
+.page-top-text-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-1 {
+    color: #777A8D;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55.2583px;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+.text-1 span {
+    color: #1B9365;
+    ;
+}
+
+.get-app-link-input {
+    display: flex;
+    flex: row;
+    margin-bottom: 20px;
+}
+
+.getapplink-button {
+    margin: auto;
+    margin-left: 20px;
+    justify-content: center;
+    width: 177.95px;
+    height: 55.19px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0322px;
+    line-height: 23px;
+    background: #1B9365;
+    color: #FFFFFF;
+    border-radius: 11.4193px;
+}
+
+.phone-number-input {
+    width: 277.87px;
+    height: 55.19px;
+    background: #FFFFFF;
+    border-radius: 11.4193px;
+}
+
+.text-2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+
+.text-2 :nth-child(1) {
+    color: #EC9F05;
+}
+
+.text-2 :nth-child(2) {
+    color: #1B9365;
+}
+
+.text-2 :nth-child(3) {
+    color: #8014E7;
+}
+
+.final-image {
+    width: 726px;
+    height: 500px;
+    margin-left: 30%;
+    justify-content: center;
+}
+
+.download-text {
+    display: flex;
+    flex: row;
+}
+
+.download-image {
+    width: 232.26px;
+    height: 72px;
+}
+
+.availablity-info {
+    padding-left: 20px;
+    width: 232px;
+    height: 22px;
+    margin: auto;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.1545px;
+    line-height: 22px;
+    align-items: flex-end;
+    color: #5B5A6C;
+}
+
+.availablity-info span {
+    text-decoration: underline;
+    color: #1B9365;
+}
+
+.page-middle-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex: row;
+    margin-bottom: 80px;
+}
+
+.page-middle-items .bottom-font {
+    margin-top: 20px;
+    color: #B0AFB4;
+}
+
+.mid-font-1 {
+    margin-top: 20px;
+    color: #EC9F05;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mid-font-2 {
+    margin-top: 20px;
+    color: #8014E7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mid-font-3 {
+    margin-top: 20px;
+    color: #1B9365;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.background-how-to-trade {
+    margin-left: 155px;
+    width: 1235px;
+    height: 1663px;
+    background: #0E0F13;
+    border-radius: 62px;
+}
+
+.app-images-1 {
+    display: flex;
+    flex: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.app-image {
+    width: 354px;
+    height: 506px;
+    border-right: 2px solid #46474A;
+}
+
+.app-image-2 {
+    width: 354px;
+    height: 506px;
+    border-left: 2px solid #46474A;
+}
+
+.page-bottom {
+    margin: auto;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.title-how-to-trade {
+    padding-top: 50px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-material {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    color: white;
+}
+
+.kal {
+    display: flex;
+    flex-direction: row;
+}
+
+.thumb-img {
+    width: 141px;
+    height: 141px;
+}
+
+.app-images-2 {
+    display: flex;
+    flex: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.app-images-3 {
+    display: flex;
+    flex: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.text-material-1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    color: white;
+}
+
+.text-material-3 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    color: white;
+}
+.why-us{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.why-us-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: white;
+}
+.trust-us{
+    width: 70%;
+    height: 200px;
+
+}
