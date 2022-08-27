@@ -16,10 +16,14 @@ import { BiMap } from "react-icons/bi";
 
 const Footer = () => {
   const navigate = useNavigate();
-
+ 
   const handleClick1 = () => {
     window.scroll(0, 0);
     navigate("/privacy")
+  };
+
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
   };
   const handleClick2 = () => {
     window.scroll(0, 0);
@@ -33,7 +37,6 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-container">
-
         <div className="footer-lists">
           <ul className="footerlist">
             <li className="footer-list-item">
@@ -58,7 +61,9 @@ const Footer = () => {
             <li className="footer-list-item">
               <div className="footer-title">Get Help</div>
             </li>
-            <li className="footer-list-item" onClick={handlefaq}>FAQ</li>
+            <li className="footer-list-item" onClick={handlefaq}>
+              FAQ
+            </li>
           </ul>
 
           <ul className="footerlist">
@@ -66,10 +71,13 @@ const Footer = () => {
               <div className="footer-title">Legal</div>
             </li>
             <li className="footer-list-item" onClick={handleClick1}>
-              Privacy Policy{" "}
+              Privacy Policy
             </li>
-            <li className="footer-list-item" onClick={handleClick2}>
-              {" "}
+            <li
+              className="footer-list-item"
+              // onClick={() => openInNewTab("../../Term.html")}
+              onClick={handleClick2}
+            >
               Terms & Conditions
             </li>
           </ul>

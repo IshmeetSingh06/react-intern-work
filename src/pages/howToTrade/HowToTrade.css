@@ -337,10 +337,32 @@
         margin-left: 20px;
     }
 
+    .final-image {
+        margin-top: 40px;
+        width: 180px;
+        height: 400px;
+        margin-left: -60px;
+    }
+
     .text-1 {
         font-size: 20px;
     }
 }
+
+@media only screen and (max-width: 1250px) {
+    .text-1 {
+            margin-top: 0px;
+            font-size: 40px;
+            margin-bottom: 0px;
+            font-size: 8vh;
+        }
+    .final-image {
+            margin-top: 40px;
+            width: 180px;
+            height: 400px;
+            margin-left: -60px;
+        }
+    }
 
 @media only screen and (max-width: 1080px) {
     .page-top {
@@ -348,8 +370,29 @@
         margin-left: 20px;
     }
 
+    .final-image {
+        margin-top: 40px;
+        width: 320px;
+        margin-left: 60px;
+        justify-content: center;
+        height: 320px;
+    }
+
     .text-1 {
-        font-size: 20px;
+        font-size: 40px;
+    }
+    .availablity-info{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .final-image{
+        margin-top: 40px;
+        width: 400px;
+        height: 300px;
+        margin-left: -0px;
+        
     }
 }
 

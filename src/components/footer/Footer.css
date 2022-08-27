@@ -68,9 +68,10 @@ footer .footer-container {
 
 @media only screen and (max-width: 990px) {
     footer .footer-container {
-        width: 85%
+        width: 85%;
+        margin-bottom: -120px;
+        margin-top: -80px;
     }
-
     footer .footer-container .footer-content {
         flex-direction: column
     }
@@ -84,6 +85,8 @@ footer .footer-container {
     .footerlist-1{
         flex-direction: column;
     }
-  
+    footer{
+        margin-bottom: -80px;
+    }
 
 }
