@@ -10,12 +10,14 @@ const Navbar = () => {
     window.scroll(0, 0);
     navigate("/download");
   };
-
+  const handleClick1 = () => {
+    window.scroll(2100, 2100);
+  };
   const handletrade = () => {
-    window.scroll(900,900);
+    window.scroll(900, 900);
   };
   const handleContact = () => {
-    window.scrollTo(6000,6000)
+    window.scrollTo(6000, 6000);
   };
 
   return (
@@ -43,7 +45,11 @@ const Navbar = () => {
               <p>How To Trade</p>
             </span>
           </a>
-          <a activeclassname="active" className="nav-link magnet" href="/faq">
+          <a
+            activeclassname="active"
+            className="nav-link magnet"
+            onClick={handleClick1}
+          >
             <span styles="">
               <p>FAQ</p>
             </span>

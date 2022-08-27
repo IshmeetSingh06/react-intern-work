@@ -2,7 +2,9 @@ footer {
     width: 100%;
     background-color: #111;
     padding: 6em 0;
-    overflow-x: hidden
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: row;
 }
 
 footer .footer-container {
@@ -21,9 +23,12 @@ footer .footer-container {
     margin-bottom: 50px;
     width: 100%;
 }
-.footerlist {
+.footerlist,.footerlist-1 {
     list-style: none;
     padding: 0;
+}
+.footerlist-1{
+    display: flex;
 }
 .footer-list-item {
     cursor: pointer;
@@ -55,9 +60,30 @@ footer .footer-container {
     
 }
 .upi-logo {
-    position: absolute;
     width: 128px;
     height: 81px;
     margin-top: 30px;
-    background: url("../../assets/upilogo.svg");
+}
+
+
+@media only screen and (max-width: 990px) {
+    footer .footer-container {
+        width: 85%
+    }
+
+    footer .footer-container .footer-content {
+        flex-direction: column
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-lists {
+        flex-direction: column;
+    }
+    .footerlist-1{
+        flex-direction: column;
+    }
+  
+
 }

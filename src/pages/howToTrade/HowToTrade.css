@@ -1,3 +1,8 @@
+@font-face {
+    font-family: rale;
+    src: url(../../fonts/Raleway-Regular.ttf);
+}
+
 .p-home {
     height: auto;
     width: 100%;
@@ -23,7 +28,7 @@
 
 .text-1 {
     color: #777A8D;
-    font-family: sans-serif;
+    font-family: rale;
     font-style: normal;
     font-weight: 600;
     font-size: 55.2583px;
@@ -47,7 +52,7 @@
     justify-content: center;
     width: 177.95px;
     height: 55.19px;
-    font-family: sans-serif;
+    font-family: rale;
     font-style: normal;
     font-weight: 700;
     font-size: 19.0322px;
@@ -65,7 +70,7 @@
 }
 
 .text-2 {
-    font-family: sans-serif;
+    font-family: rale;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
@@ -108,7 +113,7 @@
     height: 22px;
     margin: auto;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: rale;
     font-style: normal;
     font-weight: 500;
     font-size: 18.1545px;
@@ -157,7 +162,7 @@
 }
 
 .background-how-to-trade {
-    width: 80%;
+    width: 80vw;
     margin-left: 156px;
     background: #0E0F13;
     border-radius: 62px;
@@ -167,7 +172,7 @@
 .title-how-to-trade {
     padding-top: 50px;
     color: #FFFFFF;
-    font-family: sans-serif;
+    font-family: rale;
     font-size: 50px;
     text-align: center;
 }
@@ -223,7 +228,7 @@
 .bold-text {
     width: 287px;
     height: 61px;
-    font-family: sans-serif;
+    font-family: rale;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -234,7 +239,7 @@
 .small-text {
     width: 287px;
     height: 76px;
-    font-family: sans-serif;
+    font-family: rale;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -259,8 +264,45 @@
     transform: rotate(90deg);
 }
 
-.page-middle-2{
+
+
+.page-middle-2 {
     margin-top: 40px;
+}
+
+.button-bar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center
+}
+
+.button-bar .project-button {
+    user-select: none;
+    margin-right: 1em;
+    color: #f5f5f5;
+    height: 50px;
+    width: fit-content;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f5f5f5;
+    border-radius: 15px;
+    transition: .2s ease
+}
+
+.button-bar .project-button:hover {
+    cursor: pointer;
+    box-shadow: 0 3px #f5f5f5;
+    transform: translateY(-3px);
+    transition: .2s ease
+}
+
+.button-bar .project-button:active {
+    transform: translatey(0);
+    box-shadow: 0 0 #f5f5f5
 }
 
 .line-2 {
@@ -282,10 +324,13 @@
     background: #46474A;
     transform: rotate(90deg);
 }
-.faq-section{
+
+.faq-section {
     margin-left: 157px;
+    align-items: center;
     margin-right: 147px;
 }
+
 @media only screen and (max-width: 1250px) {
     .page-top {
         flex-direction: column;
@@ -308,7 +353,7 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .page-top {
         flex-direction: column;
         margin-left: 20px;
@@ -332,6 +377,12 @@
         height: 47px;
     }
 
+    .button-bar {
+        margin-left: 10px;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
     .getapplink-button {
         width: 125px;
         height: 47px;
@@ -342,35 +393,39 @@
         height: 52px;
         width: 180px;
     }
-    .availablity-info{
+
+    .availablity-info {
         font-size: 15px;
     }
 
-    .final-image{
+    .final-image {
         margin-top: 40px;
         width: 480px;
         height: 400px;
         margin-left: -60px;
     }
 
-    .page-middle-1{
+    .page-middle-1 {
         flex-direction: column;
     }
-    .page-middle-items{
+
+    .page-middle-items {
         margin-block: 20px;
     }
 
-    .why-us-title{
+    .why-us-title {
         margin-top: 20px;
         margin-left: 90px;
         font-size: 30px;
         margin-bottom: 10px;
     }
-    .trust-items{
+
+    .trust-items {
         flex-direction: column;
     }
-    .faq-section{
-        margin-left:20px;
+
+    .faq-section {
+        margin-left: 20px;
         margin-right: 20px;
     }
 }

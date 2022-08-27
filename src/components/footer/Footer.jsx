@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import applogo from "../../assets/logo.svg";
+import upi from "../../assets/upilogo.svg"
 import { useNavigate } from "react-router-dom";
 import {
   BsFillTelephoneFill,
@@ -32,6 +33,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-container">
+
         <div className="footer-lists">
           <ul className="footerlist">
             <li className="footer-list-item">
@@ -48,9 +50,10 @@ const Footer = () => {
               </div>
             </li>
             <li className="footer-list-item">
-              <div className="upi-logo"></div>
+              <img className="upi-logo" src={upi} />
             </li>
           </ul>
+
           <ul className="footerlist">
             <li className="footer-list-item">
               <div className="footer-title">Get Help</div>
@@ -98,6 +101,7 @@ const Footer = () => {
               </div>
             </li>
           </ul>
+
           <ul className="footerlist">
             <li className="footer-list-item">
               <div className="footer-title">Social Media</div>

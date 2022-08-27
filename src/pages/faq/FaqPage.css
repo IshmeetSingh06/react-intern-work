@@ -1,0 +1,13 @@
+.faq-style-wrapper {
+    height: auto;
+    width: 80%;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    color: white;
+    margin-top: 0em;
+    overflow-x: hidden !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}

@@ -37,13 +37,13 @@ const HowToTrade = () => {
                 <span>Apply TakTik.</span>
                 <span>Earn</span>
               </div>
-              <div className="get-app-link-input">
+              {/* <div className="get-app-link-input">
                 <input
                   placeholder="+91 | Enter Mobile Number"
                   className="phone-number-input"
                 ></input>
                 <button className="getapplink-button">Get App Link</button>
-              </div>
+              </div> */}
               <div className="download-text">
                 <Link
                   to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
@@ -156,11 +156,19 @@ const HowToTrade = () => {
             </div>
           </div>
 
-
           <div className="faq-section">
-            <Faq1/>
+            <Faq1 />
+            <div className="button-bar">
+              <a
+                href="/faq"
+                className="project-button dark-btn"
+                rel="noreferrer"
+                target="_blank"
+              >
+                If you Have any further questions check here
+              </a>
+            </div>
           </div>
-
 
           <div className="page-middle-2">
             <div className="why-us-title">Why Trust Us?</div>
