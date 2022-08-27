@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.03fcdd2d.css",
+    "main.css": "/static/css/main.910d96c7.css",
     "main.js": "/static/js/main.d1c83997.js",
     "static/media/final-image.png": "/static/media/final-image.edb99e54aa697327ef70.png",
     "static/media/img-3.png": "/static/media/img-3.24c955dc3b21d02f0df1.png",
@@ -18,11 +18,11 @@
     "static/media/opinion.svg": "/static/media/opinion.629388a99b7bbc075a080f357e3919e4.svg",
     "static/media/trade.svg": "/static/media/trade.39c0bc03d58878971e48c13fdda5817d.svg",
     "index.html": "/index.html",
-    "main.03fcdd2d.css.map": "/static/css/main.03fcdd2d.css.map",
+    "main.910d96c7.css.map": "/static/css/main.910d96c7.css.map",
     "main.d1c83997.js.map": "/static/js/main.d1c83997.js.map"
   },
   "entrypoints": [
-    "static/css/main.03fcdd2d.css",
+    "static/css/main.910d96c7.css",
     "static/js/main.d1c83997.js"
   ]
 }
