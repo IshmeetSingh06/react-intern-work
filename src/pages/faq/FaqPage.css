@@ -11,3 +11,9 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+@media only screen and (max-width: 450px) {
+    .faq-style-wrapper{
+        margin-left: 40px;
+    }
+}
