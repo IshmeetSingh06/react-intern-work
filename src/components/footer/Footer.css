@@ -65,17 +65,31 @@ footer .footer-container {
     margin-top: 30px;
 }
 
-
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1250px) {
     footer .footer-container {
         width: 85%;
         margin-bottom: -120px;
         margin-top: -80px;
     }
+}
+@media only screen and (max-width: 1080px) {
+    footer .footer-container {
+        width: 85%;
+        margin-bottom: -120px;
+        margin-top: -80px;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    footer .footer-container {
+        width: 70%;
+        margin-bottom: -120px;
+        margin-left: 80px;
+        margin-top: -80px;
+    }
     footer .footer-container .footer-content {
         flex-direction: column
     }
-
 }
 
 @media only screen and (max-width: 450px) {

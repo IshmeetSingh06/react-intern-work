@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03fcdd2d.css",
+    "main.js": "/static/js/main.d1c83997.js",
+    "static/media/final-image.png": "/static/media/final-image.edb99e54aa697327ef70.png",
+    "static/media/img-3.png": "/static/media/img-3.24c955dc3b21d02f0df1.png",
+    "static/media/download-1.png": "/static/media/download-1.6c26d9aa9f7fa1e1409e.png",
+    "static/media/img-2.png": "/static/media/img-2.835dcb09bbcbc505b7b9.png",
+    "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.c268e80ba67c4a294054.ttf",
+    "static/media/img-1.png": "/static/media/img-1.095a82f78e2d9d533557.png",
+    "static/media/download.png": "/static/media/download.2a4ffa98b29dcb0d7923.png",
+    "static/media/secure.png": "/static/media/secure.0514fa98b45ab415c97b.png",
+    "static/media/thumbs.png": "/static/media/thumbs.ac0eefff92fe5dbc8ff3.png",
+    "static/media/trust1.png": "/static/media/trust1.596fbefdbb6d78a3db2d.png",
+    "static/media/upilogo.svg": "/static/media/upilogo.5747991ff946fb7d22300285907c40fe.svg",
+    "static/media/earn.svg": "/static/media/earn.b8b98ee349c17f1a18a524554fc1d034.svg",
+    "static/media/logo.svg": "/static/media/logo.2ba832f6d7cb57ce787c5642ef277959.svg",
+    "static/media/opinion.svg": "/static/media/opinion.629388a99b7bbc075a080f357e3919e4.svg",
+    "static/media/trade.svg": "/static/media/trade.39c0bc03d58878971e48c13fdda5817d.svg",
+    "index.html": "/index.html",
+    "main.03fcdd2d.css.map": "/static/css/main.03fcdd2d.css.map",
+    "main.d1c83997.js.map": "/static/js/main.d1c83997.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03fcdd2d.css",
+    "static/js/main.d1c83997.js"
+  ]
+}

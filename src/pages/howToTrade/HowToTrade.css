@@ -93,7 +93,7 @@
 .final-image {
     width: 726px;
     height: 500px;
-    margin-left: 30%;
+    margin-left: 40px;
     justify-content: center;
 }
 
@@ -351,18 +351,19 @@
 
 @media only screen and (max-width: 1250px) {
     .text-1 {
-            margin-top: 0px;
-            font-size: 40px;
-            margin-bottom: 0px;
-            font-size: 8vh;
-        }
-    .final-image {
-            margin-top: 40px;
-            width: 180px;
-            height: 400px;
-            margin-left: -60px;
-        }
+        margin-top: 0px;
+        font-size: 40px;
+        margin-bottom: 0px;
+        font-size: 8vh;
     }
+
+    .final-image {
+        margin-top: 40px;
+        width: 180px;
+        height: 400px;
+        margin-left: -60px;
+    }
+}
 
 @media only screen and (max-width: 1080px) {
     .page-top {
@@ -373,7 +374,7 @@
     .final-image {
         margin-top: 40px;
         width: 320px;
-        margin-left: 60px;
+        margin-left: 0px;
         justify-content: center;
         height: 320px;
     }
@@ -381,18 +382,38 @@
     .text-1 {
         font-size: 40px;
     }
-    .availablity-info{
+
+    .availablity-info {
         margin-left: 0px;
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .final-image{
+@media only screen and (max-width: 1250px) {
+    .page-top-text-side{
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .page-top-image-side{
+        margin: auto;
+        justify-content: center;
+    }
+    .final-image {
         margin-top: 40px;
-        width: 400px;
-        height: 300px;
-        margin-left: -0px;
-        
+        width: 700px;
+        margin: auto;
+       
+        justify-content: center;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .final-image {
+        margin-top: 40px;
+        width: 700px;
+        height: 500px;
+        margin-left: -30px;
     }
 }
 
@@ -405,13 +426,14 @@
 
     .text-1 {
         margin-top: 0px;
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 0px;
     }
 
     .text-2 {
         margin-top: 0px;
         font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .phone-number-input {

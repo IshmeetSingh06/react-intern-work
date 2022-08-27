@@ -7,6 +7,7 @@ import Terms from "./pages/terms/Terms"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FaqPage from "./pages/faq/FaqPage";
 
+
 function App() {
   return (
     <Router>
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<HowToTrade />} />
         <Route path="download" element={<Download />} />
         <Route path="privacy" element={<Privacy />} />
-        <Route path="terms" element={<Terms />} />
+        <Route path="terms" element={<Terms/>} />
         <Route path="faq" element={<FaqPage/>}/>
       </Routes>
       <Footer />
