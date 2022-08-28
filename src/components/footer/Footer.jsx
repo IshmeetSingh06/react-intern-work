@@ -135,6 +135,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <div className="copyright">Copyright 2022 @ Dream Opinion Technologies Private Limited</div>
       </div>
     </footer>
   );

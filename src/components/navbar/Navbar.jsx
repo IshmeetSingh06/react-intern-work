@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOverlayActive, setOverlayActive] = useState(false);
 
   const navigate = useNavigate();
-
+   
   const toggle = () => {
     setOverlayActive(!isOverlayActive);
   };
@@ -29,18 +29,6 @@ const Navbar = () => {
   return (
     <header className="nav-collapsed">
       <nav>
-        <div className="magnet-1">
-          <Link
-            className="button-download-mobile"
-            to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
-            target="_blank"
-            download
-            onClick={handleClick}
-          >
-            <span>Download</span>
-          </Link>
-        </div>
-
         <div className="magnet" href="/">
           <a className="nav-logo" href="/">
             <img className="app-logo" src={logo} alt="logo" />
@@ -107,6 +95,17 @@ const Navbar = () => {
             d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
           ></path>
         </svg>
+        <div className="magnet-1">
+          <Link
+            className="button-download-mobile"
+            to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+            target="_blank"
+            download
+            onClick={handleClick}
+          >
+            <span>Download</span>
+          </Link>
+        </div>
       </nav>
       {isOverlayActive ? (
         <div className="overlay-menu overlay-active">

@@ -634,12 +634,13 @@
     .availablity-info {
         font-size: 15px;
     }
-
+    .page-top-image-side{
+        margin-left: -20px;
+    }
     .final-image {
-        margin-top: 0px;
-        width: 406px;
+        width: 100%;
         height: 392px;
-        margin-left: -18px;
+        margin: auto;
     }
 
     .button-bar {
@@ -672,6 +673,15 @@
         display: none;
     }
 
+    .download-text{
+        flex-direction: column;
+    }
+    .availablity-info{
+        margin: auto;
+        margin-left: 0px;
+        padding-left: 0px;
+        font-size:18px ;
+    }
     .page-bottom-mobile {
         visibility: visible;
         display: block;

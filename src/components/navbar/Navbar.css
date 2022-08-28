@@ -232,7 +232,6 @@ a {
 .ham {
     display: none;
     position: relative;
-    left: 25px;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     transition: transform .4s;
@@ -294,7 +293,7 @@ a {
 @media only screen and (max-width: 650px) {
     header nav .ham {
         display: inline;
-        left: 25px
+
     }
 
     .button-download-mobile {

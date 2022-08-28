@@ -58,9 +58,11 @@ footer .footer-container {
 .media-links span {
     padding: 8px
 }
+
 .media-links a {
     padding: 8px
 }
+
 .number {
     margin-left: 10px;
     margin-top: -7px;
@@ -77,10 +79,22 @@ footer .footer-container {
     margin-top: 30px;
 }
 
+.copyright {
+    font-size: 22px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1250px) {
     footer .footer-container {
         width: 85%;
     }
+
     ul {
         margin-right: 30px;
     }
@@ -105,7 +119,8 @@ footer .footer-container {
     footer .footer-container .footer-content {
         flex-direction: column
     }
-    ul{
+
+    ul {
         margin-right: 50px;
     }
 }
@@ -148,7 +163,16 @@ footer .footer-container {
     }
 
     footer {
-        margin-bottom: -80px;
+        margin-bottom: -60px;
         margin-left: 0px;
+    }
+
+    .copyright {
+        font-size: 22px;
+        width: 100%;
+        height: auto;
+        margin-left: -30px;
+        text-align: center;
+        justify-content: center;
     }
 }
