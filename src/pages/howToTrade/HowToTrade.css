@@ -15,15 +15,29 @@
 
 .page-top {
     display: flex;
-    flex: row;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
     margin-top: 80px;
     margin-bottom: 80px;
-    margin-left: 157px;
+    
 }
 
 .page-top-text-side {
     display: flex;
     flex-direction: column;
+    height: 120px;
+    width: 450px;
+    margin-right: 40px;
+}
+
+.page-bottom {
+    margin-bottom: 60px;
+}
+
+.page-bottom-mobile {
+    visibility: hidden;
+    display: none;
 }
 
 .text-1 {
@@ -91,9 +105,10 @@
 }
 
 .final-image {
-    width: 726px;
-    height: 500px;
-    margin-left: 40px;
+    width: 650px;
+    height: 400px;
+    margin-top: -2rem;
+    margin-left: 100px;
     justify-content: center;
 }
 
@@ -137,8 +152,9 @@
 
 .page-middle-items .bottom-font {
     margin-top: 20px;
-    color: #B0AFB4;
+    color: white;
 }
+
 
 .mid-font-1 {
     margin-top: 20px;
@@ -162,8 +178,8 @@
 }
 
 .background-how-to-trade {
-    width: 80vw;
-    margin-left: 156px;
+    width: 90vw;
+    margin-left: 100px;
     background: #0E0F13;
     border-radius: 62px;
     margin-bottom: 40px;
@@ -188,7 +204,8 @@
 }
 
 .why-us-title {
-    margin-left: 157px;
+    margin-left: 0px;
+    text-align: center;
     font-size: 48px;
     color: white;
     margin-bottom: 100px;
@@ -203,17 +220,19 @@
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    flex: row;
+    flex-direction: row;
     margin-bottom: 80px;
 }
 
 .howtotrade-container {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
 }
 
 .colummn-1 {
-    margin-left: 120px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -265,6 +284,10 @@
 }
 
 
+.page-middle-items {
+    height: 215px;
+    width: 225px;
+}
 
 .page-middle-2 {
     margin-top: 40px;
@@ -326,9 +349,40 @@
 }
 
 .faq-section {
-    margin-left: 157px;
+    margin-left: 80px;
     align-items: center;
-    margin-right: 147px;
+    margin-right: 80px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .page-bottom {
+        margin: auto;
+        justify-content: left;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+    .final-image {
+        margin-left: 0px;
+    }
+
+    .page-top-image-side {
+        margin-left: 0vw;
+    }
+
+    .background-how-to-trade {
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    .howtotrade-container {
+        margin: auto;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
 }
 
 @media only screen and (max-width: 1250px) {
@@ -337,6 +391,10 @@
         margin-left: 20px;
     }
 
+    .page-top-text-side {
+        height: auto;
+    }
+
     .final-image {
         margin-top: 40px;
         width: 180px;
@@ -344,8 +402,10 @@
         margin-left: -60px;
     }
 
-    .text-1 {
-        font-size: 20px;
+    .faq-section {
+        margin-left: 60px;
+        margin-right: 60px;
+        justify-content: center;
     }
 }
 
@@ -354,7 +414,7 @@
         margin-top: 0px;
         font-size: 40px;
         margin-bottom: 0px;
-        font-size: 8vh;
+        font-size: 4vh;
     }
 
     .final-image {
@@ -362,6 +422,49 @@
         width: 180px;
         height: 400px;
         margin-left: -60px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .page-top {
+        margin-left: 0px;
+    }
+
+    .page-top-text-side {
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .page-top-image-side {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .final-image {
+        width: 700px;
+        margin: auto;
+        justify-content: center;
+        height: 450px;
+    }
+
+    .page-bottom {
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .background-how-to-trade {
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    .howtotrade-container {
+        margin: auto;
+        justify-content: center;
     }
 }
 
@@ -371,42 +474,49 @@
         margin-left: 20px;
     }
 
+
     .final-image {
         margin-top: 40px;
-        width: 320px;
+        width: 100%;
         margin-left: 0px;
         justify-content: center;
-        height: 320px;
+        height: 450px;
     }
 
     .text-1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .availablity-info {
         margin-left: 0px;
     }
+
+    .page-bottom {
+        margin-left: 0px;
+    }
+
+    .page-middle-1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .howtotrade-container {
+        margin: auto;
+        justify-content: center;
+        height: auto;
+        width: 60%;
+    }
+
+    .colummn-1 {
+        padding-left: 3rem;
+    }
+
+    .colummn-2 {
+        padding-right: 2rem;
+    }
 }
 
-@media only screen and (max-width: 1250px) {
-    .page-top-text-side{
-        margin: auto;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .page-top-image-side{
-        margin: auto;
-        justify-content: center;
-    }
-    .final-image {
-        margin-top: 40px;
-        width: 700px;
-        margin: auto;
-       
-        justify-content: center;
-        height: 450px;
-    }
-}
+
 
 @media only screen and (max-width: 990px) {
     .final-image {
@@ -415,13 +525,92 @@
         height: 500px;
         margin-left: -30px;
     }
+
+
+    .background-how-to-trade {
+        width: 95%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .howtotrade-container {
+        margin: auto;
+        justify-content: center;
+        margin-left: 20vw;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .page-bottom {
+        visibility: hidden;
+        display: none;
+    }
+
+    .page-bottom-mobile {
+        visibility: visible;
+        display: block;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .page-middle-items {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .final-image {
+        margin-top: 40px;
+        width: 530px;
+        height: 475px;
+        margin-left: -19px;
+    }
+
+    .page-middle-1 {
+        flex-direction: column;
+    }
+
+    .page-middle-items img {
+        height: 45%;
+        width: 25%;
+    }
+
+    .trust-items {
+        flex-direction: column;
+    }
+
+    .why-us-title {
+        margin-bottom: 20px;
+    }
+
+    .page-middle-items {
+        margin-block: 40px;
+    }
+
+    .trust-us-images {
+        height: 30%;
+        width: 30%;
+    }
+
+    .mid-font-1,
+    .mid-font-2,
+    .mid-font-3 {
+        font-size: 45px;
+    }
+
+    .bottom-font {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .page-top {
         flex-direction: column;
         margin-left: 20px;
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .text-1 {
@@ -442,6 +631,17 @@
         height: 47px;
     }
 
+    .availablity-info {
+        font-size: 15px;
+    }
+
+    .final-image {
+        margin-top: 0px;
+        width: 406px;
+        height: 392px;
+        margin-left: -18px;
+    }
+
     .button-bar {
         margin-left: 10px;
         font-size: 14px;
@@ -454,33 +654,58 @@
         font-size: 15px;
     }
 
+    .mid-font-1,
+    .mid-font-2,
+    .mid-font-3 {
+        font-size: 20px;
+    }
+
+    .bottom-font {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .page-bottom {
+        visibility: hidden;
+        display: none;
+    }
+
+    .page-bottom-mobile {
+        visibility: visible;
+        display: block;
+    }
+
+    .page-middle-items {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-middle-items img {
+        height: 25%;
+        width: 25%;
+    }
+
     .download-image {
         height: 52px;
         width: 180px;
     }
 
-    .availablity-info {
-        font-size: 15px;
-    }
-
-    .final-image {
-        margin-top: 40px;
-        width: 480px;
-        height: 400px;
-        margin-left: -60px;
-    }
 
     .page-middle-1 {
         flex-direction: column;
     }
 
     .page-middle-items {
-        margin-block: 20px;
+        margin-block: 10px;
     }
 
     .why-us-title {
         margin-top: 20px;
-        margin-left: 90px;
+        text-align: center;
         font-size: 30px;
         margin-bottom: 10px;
     }

@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     background-color: #111;
-    padding: 6em 0;
+    padding: 0;
     display: flex;
     overflow-x: hidden;
     flex-direction: row;
@@ -9,56 +9,68 @@ footer {
 
 footer .footer-container {
     margin: 0 auto;
+    margin-top: 20px;
     width: 75%;
     color: #fff;
     position: relative
 }
-.footer-app-logo{
-    display:flex
+
+.footer-app-logo {
+    display: flex
 }
 
 .footer-lists {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
     width: 100%;
 }
-.footerlist,.footerlist-1 {
+
+.footerlist,
+.footerlist-1 {
     list-style: none;
     padding: 0;
 }
-.footerlist-1{
+
+.footerlist-1 {
     display: flex;
 }
+
 .footer-list-item {
     cursor: pointer;
     line-height: 30px;
     margin-bottom: 10px;
 }
+
 .footer-list-item .footer-app-logo span {
     text-align: center;
     margin-top: 2px;
     margin-left: 7px;
     font-size: 25px;
 }
-.footer-title{
+
+.footer-title {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 50px;
 
 }
 
-.media-links span{
-    padding:8px
+.media-links span {
+    padding: 8px
 }
-.number{
+.media-links a {
+    padding: 8px
+}
+.number {
     margin-left: 10px;
+    margin-top: -7px;
 }
-.container-1{
+
+.container-1 {
     display: flex;
-    flex: row;
-    
+    flex-direction: row;
 }
+
 .upi-logo {
     width: 128px;
     height: 81px;
@@ -68,39 +80,75 @@ footer .footer-container {
 @media only screen and (max-width: 1250px) {
     footer .footer-container {
         width: 85%;
-        margin-bottom: -120px;
-        margin-top: -80px;
+    }
+    ul {
+        margin-right: 30px;
     }
 }
+
 @media only screen and (max-width: 1080px) {
     footer .footer-container {
         width: 85%;
-        margin-bottom: -120px;
-        margin-top: -80px;
-        margin-left: 50px;
+    }
+
+    ul {
+        margin-right: 30px;
     }
 }
+
 @media only screen and (max-width: 990px) {
     footer .footer-container {
         width: 70%;
-        margin-bottom: -120px;
         margin-left: 80px;
-        margin-top: -80px;
     }
+
     footer .footer-container .footer-content {
         flex-direction: column
+    }
+    ul{
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    footer .footer-container {
+        margin-left: 60px;
+        width: 82%;
+    }
+
+    ul {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .footer-lists {
+        flex-direction: column;
+        margin-left: -30px;
+    }
+
+    .footerlist-1 {
+        flex-direction: column;
+    }
+
+    footer {
+        margin-bottom: -80px;
+        margin-left: 0px;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .footer-lists {
         flex-direction: column;
-    }
-    .footerlist-1{
-        flex-direction: column;
-    }
-    footer{
-        margin-bottom: -80px;
+        margin-left: -30px;
     }
 
+    .footerlist-1 {
+        flex-direction: column;
+    }
+
+    footer {
+        margin-bottom: -80px;
+        margin-left: 0px;
+    }
 }

@@ -6,6 +6,7 @@ import Privacy from "./pages/privacy/Privacy";
 import Terms from "./pages/terms/Terms"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FaqPage from "./pages/faq/FaqPage";
+import HowToTradeMob from "./components/howToTrade/HowToTradeMob";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+
   );
 }
 export default App;

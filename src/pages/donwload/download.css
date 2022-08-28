@@ -1,15 +1,64 @@
 .download-container {
     height: auto;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     justify-content: center;
     align-items: center;
     padding: 6em 0;
+    color: white;
     margin-top: 0em;
     overflow-x: hidden !important;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.download-img {
-    margin-left: 257px;
-    width: 885.26px;
-    height: 897px;
+.point-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.img-1 {
+    height: 150px;
+    width: 260px;
+    margin-right:20px ;
+}
+
+.img-2 {
+    height: 130px;
+    width: 260px;
+    margin-right: 20px;
+}
+
+.img-3 {
+    height: 68px;
+    width: 260px;
+    margin-right: 20px;
+}
+
+span {
+    font-style: bold;
+    font-family: rale;
+    margin: auto;
+    justify-content:left;
+}
+
+@media only screen and  (max-width: 650px) {
+    .image-container{
+        flex-direction: column;
+    }
+    .img-1,.img-2,.img-3{
+     margin: auto;
+     justify-content: center;
+     margin-bottom: 20px;
+    }
+    span{
+        text-align: center;
+        justify-content: center;
+    }
 }

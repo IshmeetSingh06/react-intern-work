@@ -1,6 +1,9 @@
 import React from "react";
 import "./HowToTrade.css";
 import { Link, useNavigate } from "react-router-dom";
+
+
+//Images
 import finalimg from "../../assets/final-image.png";
 import downlaodimg from "../../assets/download.png";
 import opinion from "../../assets/opinion.svg";
@@ -13,8 +16,11 @@ import thumbs from "../../assets/thumbs.png";
 import secure from "../../assets/secure.png";
 import privacy from "../../assets/trust.png";
 import trust from "../../assets/trust1.png";
-import Faq from "../../components/faq/Faq";
+
+
+//Componenets
 import Faq1 from "../../components/faq/Faq";
+import HowToTradeMob from "../../components/howToTrade/HowToTradeMob"
 
 const HowToTrade = () => {
   const navigate = useNavigate();
@@ -95,6 +101,10 @@ const HowToTrade = () => {
                 wins you make money
               </div>
             </div>
+          </div>
+
+          <div className="page-bottom-mobile">
+            <HowToTradeMob />
           </div>
 
           <div className="page-bottom">
