@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.910d96c7.css",
-    "main.js": "/static/js/main.d1c83997.js",
+    "main.css": "/static/css/main.f32f4a37.css",
+    "main.js": "/static/js/main.8c958a1d.js",
     "static/media/final-image.png": "/static/media/final-image.edb99e54aa697327ef70.png",
     "static/media/img-3.png": "/static/media/img-3.24c955dc3b21d02f0df1.png",
-    "static/media/download-1.png": "/static/media/download-1.6c26d9aa9f7fa1e1409e.png",
+    "static/media/mob-img-1.png": "/static/media/mob-img-1.2e693117cd4ea90821c4.png",
+    "static/media/mob-img-3.png": "/static/media/mob-img-3.b84ccc14c728bf9cea5e.png",
     "static/media/img-2.png": "/static/media/img-2.835dcb09bbcbc505b7b9.png",
     "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.c268e80ba67c4a294054.ttf",
     "static/media/img-1.png": "/static/media/img-1.095a82f78e2d9d533557.png",
+    "static/media/mob-img-2.png": "/static/media/mob-img-2.4047931640de08ecd66d.png",
+    "static/media/download-1.png": "/static/media/download-1.20cb92579c74674032ae.png",
+    "static/media/slide-3.png": "/static/media/slide-3.b09b20747aab806e2678.png",
+    "static/media/download-3.png": "/static/media/download-3.2fa43d1e62c783bc5995.png",
+    "static/media/download-2.png": "/static/media/download-2.67cbb7849009a239bf49.png",
     "static/media/download.png": "/static/media/download.2a4ffa98b29dcb0d7923.png",
+    "static/media/donwload-5.png": "/static/media/donwload-5.803ec69b0ed01f0e08e4.png",
     "static/media/secure.png": "/static/media/secure.0514fa98b45ab415c97b.png",
+    "static/media/donwload-4.png": "/static/media/donwload-4.95d221d9ec972f481741.png",
     "static/media/thumbs.png": "/static/media/thumbs.ac0eefff92fe5dbc8ff3.png",
     "static/media/trust1.png": "/static/media/trust1.596fbefdbb6d78a3db2d.png",
     "static/media/upilogo.svg": "/static/media/upilogo.5747991ff946fb7d22300285907c40fe.svg",
@@ -18,11 +26,11 @@
     "static/media/opinion.svg": "/static/media/opinion.629388a99b7bbc075a080f357e3919e4.svg",
     "static/media/trade.svg": "/static/media/trade.39c0bc03d58878971e48c13fdda5817d.svg",
     "index.html": "/index.html",
-    "main.910d96c7.css.map": "/static/css/main.910d96c7.css.map",
-    "main.d1c83997.js.map": "/static/js/main.d1c83997.js.map"
+    "main.f32f4a37.css.map": "/static/css/main.f32f4a37.css.map",
+    "main.8c958a1d.js.map": "/static/js/main.8c958a1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.910d96c7.css",
-    "static/js/main.d1c83997.js"
+    "static/css/main.f32f4a37.css",
+    "static/js/main.8c958a1d.js"
   ]
 }
