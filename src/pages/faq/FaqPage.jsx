@@ -3,6 +3,7 @@ import Faq from "react-faq-component";
 import "./FaqPage.css";
 
 const data = {
+  
   title: "Frequently Asked Questions",
   rows: [
     {

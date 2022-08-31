@@ -1,12 +1,15 @@
-import React from 'react'
-import download1 from "../../assets/download/download-1.png"
+import React, { useEffect } from "react";
+import download1 from "../../assets/download/download-1.png";
 import download2 from "../../assets/download/download-2.png";
 import download3 from "../../assets/download/download-3.png";
 import download4 from "../../assets/download/donwload-4.png";
 import download5 from "../../assets/download/donwload-5.png";
 
-import "./download.css"
+import "./download.css";
 const Download = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="download-container">
       <div className="points-container">
@@ -41,6 +44,6 @@ const Download = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Download
+export default Download;

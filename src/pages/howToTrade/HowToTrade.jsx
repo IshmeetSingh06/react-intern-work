@@ -2,7 +2,7 @@ import React from "react";
 import "./HowToTrade.css";
 import { useNavigate } from "react-router-dom";
 
-import apk from "../../assets/taktik.apk"
+
 //Images
 
 import sun from "../../assets/gifs/animation_500_l798wqef.gif";
@@ -48,7 +48,7 @@ const HowToTrade = () => {
               </div>
               <div className="download-text">
                 <a
-                  href={apk}
+                  href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
                   target="_blank"
                   rel="noopener noreferrer"
                   download
@@ -162,7 +162,7 @@ const HowToTrade = () => {
               <a
                 href="/faq"
                 className="project-button dark-btn"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 If you Have any further questions check here

@@ -2,24 +2,46 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.svg";
-import apk from "../../assets/taktik.apk"
+
 const Navbar = () => {
   const [isOverlayActive, setOverlayActive] = useState(false);
 
   const navigate = useNavigate();
+  const path = window.location.pathname;
 
   const toggle = () => {
     setOverlayActive(!isOverlayActive);
   };
+  const toggle1 = () => {
+    setOverlayActive(!isOverlayActive);
+    navigate("/");
+    window.scrollTo(6000, 6000);
+  };
+
+  const toggle2 = () => {
+    setOverlayActive(!isOverlayActive);
+    window.scrollTo(0, 0);
+  };
+
   const handleClick = () => {
     window.scroll(0, 0);
     navigate("/download");
   };
+
   const handleClick1 = () => {
-    window.scroll(2100, 2100);
+    if (path === "/") window.scrollTo(2100, 2100);
+    else {
+      window.scrollTo(2100, 2100);
+      navigate("/");
+    }
   };
+
   const handletrade = () => {
-    window.scroll(900, 900);
+    if (path === "/") window.scrollTo(900, 900);
+    else {
+      window.scrollTo(-900, 900);
+      navigate("/");
+    }
   };
   const handleContact = () => {
     window.scrollTo(6000, 6000);
@@ -71,7 +93,7 @@ const Navbar = () => {
             </div>
             <a
               className="button-download"
-              href={apk}
+              href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
               target="_blank"
               rel="noopener noreferrer"
               download
@@ -99,7 +121,7 @@ const Navbar = () => {
           <div className="magnet-1">
             <a
               className="button-download-mobile"
-              href={apk}
+              href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
               target="_blank"
               rel="noopener noreferrer"
               download
@@ -117,7 +139,7 @@ const Navbar = () => {
           activeclassname="active"
           aria-current="page"
           className="nav-link active"
-          onClick={toggle}
+          onClick={toggle2}
           to="/"
         >
           <div className="overlay-font">
@@ -127,7 +149,7 @@ const Navbar = () => {
         <Link
           activeclassname="active"
           className="nav-link"
-          onClick={toggle}
+          onClick={toggle2}
           to="/about"
         >
           <div className="overlay-font">
@@ -137,7 +159,8 @@ const Navbar = () => {
         <Link
           activeclassname="active"
           className="nav-link"
-          onClick={toggle}
+          onClick={toggle2}
+          rel="noref"
           to="/faq"
         >
           <div className="overlay-font">
@@ -147,8 +170,8 @@ const Navbar = () => {
         <Link
           activeclassname="active"
           className="nav-link"
-          onClick={toggle}
-          to="/contact"
+          onClick={toggle1}
+          to="/"
         >
           <div className="overlay-font">
             <p>Contact Us</p>
@@ -157,7 +180,7 @@ const Navbar = () => {
         <Link
           activeclassname="active"
           className="nav-link"
-          onClick={toggle}
+          onClick={toggle2}
           to="/terms"
         >
           <div className="overlay-font">
@@ -167,7 +190,7 @@ const Navbar = () => {
         <Link
           activeclassname="active"
           className="nav-link"
-          onClick={toggle}
+          onClick={toggle2}
           to="/privacy"
         >
           <div className="overlay-font">
@@ -177,7 +200,7 @@ const Navbar = () => {
         <Link
           activeclassname="active"
           className="nav-link"
-          onClick={toggle}
+          onClick={toggle2}
           to="/refund"
         >
           <div className="overlay-font">

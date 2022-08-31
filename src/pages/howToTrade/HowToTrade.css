@@ -48,7 +48,23 @@
     font-size: 55.2583px;
     line-height: 65px;
     margin-bottom: 40px;
+    animation-name: floatText;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
+
+@keyframes floatText {
+    0% {
+        right: 100%;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        right: 45%;
+        transform: translateX(0%);
+    }
+}
+
 
 .text-1 span {
     color: #1B9365;
@@ -90,6 +106,9 @@
     font-size: 35px;
     line-height: 41px;
     margin-bottom: 40px;
+    animation-name: floatText;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 .text-2 :nth-child(1) {
@@ -113,13 +132,30 @@
     background-image: url(../../assets/bgimage.png);
     background-size: contain;
     background-position: center;
+    /* animation: linear infinite alternate; */
+    animation-name: run;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
+
+@keyframes run {
+    0% {
+        left: 100%;
+        transform: translateX(0);
+    }
+
+    100% {
+        left: 45%;
+        transform: translateX(-100%);
+    }
+}
+
 
 .weather {
     position: absolute;
     height: auto;
     left: 30px;
-    top:20px;
+    top: 20px;
     width: 11vw;
 }
 
@@ -138,6 +174,9 @@
 .download-text {
     display: flex;
     flex: row;
+    animation-name: floatText;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
 }
 
 .download-image {
@@ -329,6 +368,42 @@
     justify-content: center;
     margin-top: 20px;
     align-items: center
+}
+
+.colummn-1 img {
+    animation-name: run1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes run1 {
+    0% {
+        right: 100%;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        right: 45%;
+        transform: translateX(0%);
+    }
+}
+
+.colummn-2 img {
+    animation-name: run2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes run2 {
+    0% {
+        right: 100%;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        left: 45%;
+        transform: translateX(0%);
+    }
 }
 
 .button-bar .project-button {

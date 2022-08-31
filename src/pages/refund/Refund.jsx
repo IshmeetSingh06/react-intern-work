@@ -2,6 +2,7 @@ import React from "react";
 import "./refund.css";
 
 const Refund = () => {
+  
   return (
     <div className="refund_rules">
       <h1>Refund and Cancellation Policy </h1>
