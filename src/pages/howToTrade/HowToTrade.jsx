@@ -1,10 +1,12 @@
 import React from "react";
 import "./HowToTrade.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-
+import apk from "../../assets/taktik.apk"
 //Images
-import finalimg from "../../assets/final-image.png";
+
+import sun from "../../assets/gifs/animation_500_l798wqef.gif";
+import weather from "../../assets/gifs/animation_500_l7995k5y.gif";
 import downlaodimg from "../../assets/download.png";
 import opinion from "../../assets/opinion.svg";
 import trade from "../../assets/trade.svg";
@@ -20,10 +22,11 @@ import trust from "../../assets/trust1.png";
 
 //Componenets
 import Faq1 from "../../components/faq/Faq";
-import HowToTradeMob from "../../components/howToTrade/HowToTradeMob"
+import HowToTradeMob from "../../components/howToTrade/HowToTradeMob";
 
 const HowToTrade = () => {
   const navigate = useNavigate();
+
   const handleClick = () => {
     navigate("/download");
   };
@@ -43,27 +46,16 @@ const HowToTrade = () => {
                 <span>Apply TakTik.</span>
                 <span>Earn</span>
               </div>
-              {/* <div className="get-app-link-input">
-                <input
-                  placeholder="+91 | Enter Mobile Number"
-                  className="phone-number-input"
-                ></input>
-                <button className="getapplink-button">Get App Link</button>
-              </div> */}
               <div className="download-text">
-                <Link
-                  to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+                <a
+                  href={apk}
                   target="_blank"
+                  rel="noopener noreferrer"
                   download
                   onClick={handleClick}
                 >
-                  <img
-                    className="download-image"
-                    src={downlaodimg}
-                    onCanPlay
-                    onClick={handleClick}
-                  />
-                </Link>
+                  <img className="download-image" src={downlaodimg} alt="" />
+                </a>
 
                 <div className="availablity-info">
                   Available for <a href="/">Android</a>
@@ -71,34 +63,32 @@ const HowToTrade = () => {
               </div>
             </div>
             <div className="page-top-image-side">
-              <img className="final-image" src={finalimg} />
+              <img className="weather" src={weather} alt="" />
+              <img className="sun" src={sun} alt="" />
             </div>
           </div>
 
           <div className="page-middle-1">
             <div className="page-middle-items">
-              <img src={opinion}></img>
+              <img src={opinion} alt=""></img>
               <div className="mid-font-1">Have An Opinion?</div>
               <div className="bottom-font">
-                Select the event and purchase share of <br /> your future
-                prediction
+                Select the event and purchase share of your future prediction
               </div>
             </div>
             <div className="page-middle-items">
-              <img src={trade}></img>
+              <img src={trade} alt=""></img>
               <div className="mid-font-2">Trade on Local to Global events</div>
               <div className="bottom-font">
-                Buy or sell your positions while <br /> the market is in
-                progress
+                Buy or sell your positions while the market is in progress
               </div>
             </div>
             <div className="page-middle-items">
-              <img src={earn}></img>
+              <img src={earn} alt=""></img>
               <div className="mid-font-3">Earn from what you know</div>
               <div className="bottom-font">
-                Earn by making an early exit or wait for <br /> the event
-                outcome and if your position <br />
-                wins you make money
+                Earn by making an early exit or wait for the event outcome and
+                if your position wins you make money
               </div>
             </div>
           </div>
@@ -113,7 +103,7 @@ const HowToTrade = () => {
 
               <div className="howtotrade-container">
                 <div className="colummn-1">
-                  <img className="app-image" src={img1} />
+                  <img className="app-image" src={img1} alt="" />
 
                   <div className="text-material-1">
                     <br />
@@ -127,7 +117,7 @@ const HowToTrade = () => {
                     </div>
                   </div>
 
-                  <img className="app-image" src={img3}></img>
+                  <img className="app-image" src={img3} alt=""></img>
                 </div>
                 <div className="lines">
                   <div className="line-1"></div>
@@ -144,10 +134,10 @@ const HowToTrade = () => {
                       Predict the outcome & TakTik to <br /> maximize your
                       earnings
                     </div>
-                    <img className="thumb-img" src={thumbs}></img>
+                    <img className="thumb-img" src={thumbs} alt=""></img>
                   </div>
 
-                  <img className="app-image" src={img2}></img>
+                  <img className="app-image" src={img2} alt=""></img>
 
                   <div className="text-material-3">
                     <div className="bold-text">
@@ -184,26 +174,26 @@ const HowToTrade = () => {
             <div className="why-us-title">Why Trust Us?</div>
             <div className="trust-items">
               <div className="page-middle-items">
-                <img className="trust-us-images" src={secure}></img>
+                <img className="trust-us-images" src={secure} alt=""></img>
                 <div className="mid-font-1">Secure</div>
                 <div className="bottom-font">
-                  All transactions here are SSL <br /> encrypted
+                  All transactions here are SSL encrypted
                 </div>
               </div>
               <div className="page-middle-items">
-                <img className="trust-us-images" src={privacy}></img>
+                <img className="trust-us-images" src={privacy} alt=""></img>
                 <div className="mid-font-2">Privacy</div>
                 <div className="bottom-font">
-                  We respect the value of your <br /> data and do not share with{" "}
-                  <br /> anyone without your consent
+                  We respect the value of your data and do not share with anyone
+                  without your consent
                 </div>
               </div>
               <div className="page-middle-items">
-                <img className="trust-us-images" src={trust}></img>
+                <img className="trust-us-images" src={trust} alt=""></img>
                 <div className="mid-font-3">Trust</div>
                 <div className="bottom-font">
-                  We are group of IITians, building this <br /> platform
-                  passionately for you. You can reach <br /> the founder at
+                  We are group of IITians, building this platform passionately
+                  for you. You can reach the founder at
                   meetmanish@applytaktik.com
                 </div>
               </div>

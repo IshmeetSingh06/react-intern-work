@@ -10,9 +10,7 @@ import "swiper/css/navigation";
 import img1 from "../../assets/mob-img-1.png";
 import img2 from "../../assets/mob-img-2.png";
 import img3 from "../../assets/mob-img-3.png";
-import thumbsimg from "../../assets/thumbs.png"
-import slide3 from "../../assets/slide-3.png"
-import upi from "../../assets/upilogo.svg"
+
 
 const HowToTradeMob = () => {
   return (
@@ -32,10 +30,9 @@ const HowToTradeMob = () => {
         >
           <SwiperSlide>
             <div className="slide-1">
-              <img className="image-1" src={img1} />
+              <img className="image-1" src={img1} alt="" />
               <div className="slide-1-text">
                 Select an event based on your expertise
-                <br />
                 <br />
                 <span>
                   Predict the outcome & TakTik to maximize your earnings
@@ -45,10 +42,9 @@ const HowToTradeMob = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-1">
-              <img className="image-1" src={img2} />
+              <img className="image-1" src={img2} alt="" />
               <div className="slide-1-text">
                 Select an event based on your expertise
-                <br />
                 <br />
                 <span>
                   Predict the outcome & TakTik to maximize your earnings
@@ -58,10 +54,9 @@ const HowToTradeMob = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-1">
-              <img className="image-1" src={img3} />
+              <img className="image-1" src={img3} alt="" />
               <div className="slide-1-text">
                 Select an event based on your expertise
-                <br />
                 <br />
                 <span>
                   Predict the outcome & TakTik to maximize your earnings

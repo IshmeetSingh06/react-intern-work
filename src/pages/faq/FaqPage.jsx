@@ -96,7 +96,7 @@ const data = {
       ),
     },
     {
-      title: "10. This is amazing, how can I earn upto Rs. 2000 per referral?",
+      title: "10. This is amazing, how can I earn upto Rs. 500 per referral?",
       content: (
         <p>
           Yes, you are right. Every time you refer your friends you get Rs 10

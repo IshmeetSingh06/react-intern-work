@@ -8,8 +8,8 @@
     color: white;
     margin-top: 0em;
     overflow-x: hidden !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .point-container {
@@ -49,6 +49,10 @@ span {
 }
 
 @media only screen and  (max-width: 650px) {
+    .download-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .image-container{
         flex-direction: column;
     }

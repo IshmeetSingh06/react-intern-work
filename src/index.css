@@ -2,7 +2,9 @@
   font-family: rale;
   src: url(./fonts/Raleway-Regular.ttf);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: rale;
   background-color: rgb(0, 0, 0);

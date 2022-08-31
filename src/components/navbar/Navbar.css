@@ -10,7 +10,7 @@ header {
 
 header nav {
     height: 100%;
-    width: 80%;
+    width: 88%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -84,44 +84,19 @@ header nav .nav-links .nav-link {
 }
 
 .nav-logo img {
-    width: 60px
+    height: 30px;
+    width: 30px;
 }
 
 .nav-logo .initials {
-    font-family: rec;
-    font-size: 30px;
+    margin-left: 15px;
+    font-family: rale;
+    font-size: 20px;
     color: #f5f5f5
 }
 
 
-.overlay-menu {
-    margin-top: 70px;
-    width: 100%;
-    height: 50vh;
-    border-radius: 50%;
-    position: fixed;
-    top: -100%;
-    background-color: #111;
-    z-index: 50;
-    transition: .5s ease;
-    display: none;
-    align-items: center;
-    flex-direction: column
-}
 
-.overlay-menu .nav-link {
-
-    color: #f5f5f5;
-    margin-top: 40px;
-    text-decoration: none;
-    font-size: 45px;
-    position: relative;
-    top: -100px;
-    margin-bottom: 1em;
-    opacity: 0;
-    white-space: nowrap;
-    transition: top 1s ease
-}
 .active span p {
     position: relative
 }
@@ -136,7 +111,38 @@ header nav .nav-links .nav-link {
 }
 
 .nav-link .overlay-font{
-    font-size:2rem;
+    font-size:1rem;
+}
+
+
+.blocked {
+    overflow: hidden !important
+}
+
+.overlay-menu {
+    width: 100%;
+    height: 50vh;
+    border-radius: 50%;
+    position: fixed;
+    top: -100%;
+    background-color: #111;
+    z-index: 50;
+    transition: .5s ease;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.overlay-menu .nav-link {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 45px;
+    position: relative;
+    margin-bottom: 10px;
+    opacity: 0;
+    white-space: nowrap;
+    transition: top 1s ease
 }
 
 .overlay-menu .nav-link:hover {
@@ -293,6 +299,7 @@ a {
 @media only screen and (max-width: 650px) {
     header nav .ham {
         display: inline;
+        margin-left: -1rem;
 
     }
 

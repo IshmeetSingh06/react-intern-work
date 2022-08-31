@@ -1,0 +1,15 @@
+.copyright {
+    font-size: 12px;
+    width: 100vw;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .copyright {
+        bottom: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+}

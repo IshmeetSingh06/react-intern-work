@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f52a31b5.css",
-    "main.js": "/static/js/main.5bb8e24b.js",
-    "static/media/final-image.png": "/static/media/final-image.edb99e54aa697327ef70.png",
+    "main.css": "/static/css/main.fcf22fb7.css",
+    "main.js": "/static/js/main.80f294a4.js",
+    "static/media/taktik.apk": "/static/media/taktik.fd8e950679290dfe06c4.apk",
+    "static/media/animation_500_l798wqef.gif": "/static/media/animation_500_l798wqef.2a0411bdf58b00e84fe2.gif",
+    "static/media/weather": "/static/media/weather.92cf41a8bd9bf672639c",
+    "static/media/animation_500_l7995k5y.gif": "/static/media/animation_500_l7995k5y.d23922b3e140b486d197.gif",
     "static/media/img-3.png": "/static/media/img-3.24c955dc3b21d02f0df1.png",
+    "static/media/bgimage.png": "/static/media/bgimage.fb86e759f702ac855a4f.png",
+    "static/media/bgmobile.png": "/static/media/bgmobile.33948c77d5c43aee0f3b.png",
     "static/media/mob-img-1.png": "/static/media/mob-img-1.2e693117cd4ea90821c4.png",
     "static/media/mob-img-3.png": "/static/media/mob-img-3.b84ccc14c728bf9cea5e.png",
     "static/media/img-2.png": "/static/media/img-2.835dcb09bbcbc505b7b9.png",
@@ -11,7 +16,6 @@
     "static/media/img-1.png": "/static/media/img-1.095a82f78e2d9d533557.png",
     "static/media/mob-img-2.png": "/static/media/mob-img-2.4047931640de08ecd66d.png",
     "static/media/download-1.png": "/static/media/download-1.20cb92579c74674032ae.png",
-    "static/media/slide-3.png": "/static/media/slide-3.b09b20747aab806e2678.png",
     "static/media/download-3.png": "/static/media/download-3.2fa43d1e62c783bc5995.png",
     "static/media/download-2.png": "/static/media/download-2.67cbb7849009a239bf49.png",
     "static/media/download.png": "/static/media/download.2a4ffa98b29dcb0d7923.png",
@@ -26,11 +30,11 @@
     "static/media/opinion.svg": "/static/media/opinion.629388a99b7bbc075a080f357e3919e4.svg",
     "static/media/trade.svg": "/static/media/trade.39c0bc03d58878971e48c13fdda5817d.svg",
     "index.html": "/index.html",
-    "main.f52a31b5.css.map": "/static/css/main.f52a31b5.css.map",
-    "main.5bb8e24b.js.map": "/static/js/main.5bb8e24b.js.map"
+    "main.fcf22fb7.css.map": "/static/css/main.fcf22fb7.css.map",
+    "main.80f294a4.js.map": "/static/js/main.80f294a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f52a31b5.css",
-    "static/js/main.5bb8e24b.js"
+    "static/css/main.fcf22fb7.css",
+    "static/js/main.80f294a4.js"
   ]
 }

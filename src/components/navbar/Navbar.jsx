@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.svg";
-
+import apk from "../../assets/taktik.apk"
 const Navbar = () => {
-  
   const [isOverlayActive, setOverlayActive] = useState(false);
 
   const navigate = useNavigate();
-   
+
   const toggle = () => {
     setOverlayActive(!isOverlayActive);
   };
@@ -27,113 +26,166 @@ const Navbar = () => {
   };
 
   return (
-    <header className="nav-collapsed">
-      <nav>
-        <div className="magnet" href="/">
-          <a className="nav-logo" href="/">
-            <img className="app-logo" src={logo} alt="logo" />
-            <span className="initials">TakTik</span>
-          </a>
-        </div>
-        <div className="nav-links">
-          <a activeclassname="active" className="nav-link magnet" href="/">
-            <span styles="">
-              <p>Home</p>
-            </span>
-          </a>
-          <a
-            activeclassname="active"
-            aria-current="page"
-            className="nav-link magnet"
-            onClick={handletrade}
+    <>
+      <header className="nav-collapsed">
+        <nav>
+          <div className="magnet" href="/">
+            <a className="nav-logo" href="/">
+              <img className="app-logo" src={logo} alt="logo" />
+              <span className="initials">TakTik</span>
+            </a>
+          </div>
+          <div className="nav-links">
+            <a activeclassname="active" className="nav-link magnet" href="/">
+              <span styles="">
+                <p>Home</p>
+              </span>
+            </a>
+            <div
+              activeclassname="active"
+              aria-current="page"
+              className="nav-link magnet"
+              onClick={handletrade}
+            >
+              <span>
+                <p>How To Trade</p>
+              </span>
+            </div>
+            <div
+              activeclassname="active"
+              className="nav-link magnet"
+              onClick={handleClick1}
+            >
+              <span styles="">
+                <p>FAQ</p>
+              </span>
+            </div>
+            <div
+              activeclassname="active"
+              className="nav-link magnet"
+              onClick={handleContact}
+            >
+              <span styles="">
+                <p>Contact</p>
+              </span>
+            </div>
+            <a
+              className="button-download"
+              href={apk}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              onClick={handleClick}
+            >
+              <span>Download</span>
+            </a>
+          </div>
+          <svg
+            className={`ham hamRotate ${isOverlayActive ? "activated" : ""}`}
+            viewBox="0 0 100 100"
+            width="70"
+            onClick={toggle}
           >
-            <span>
-              <p>How To Trade</p>
-            </span>
-          </a>
-          <a
-            activeclassname="active"
-            className="nav-link magnet"
-            onClick={handleClick1}
-          >
-            <span styles="">
-              <p>FAQ</p>
-            </span>
-          </a>
-          <a
-            activeclassname="active"
-            className="nav-link magnet"
-            onClick={handleContact}
-          >
-            <span styles="">
-              <p>Contact</p>
-            </span>
-          </a>
-          <Link
-            className="button-download"
-            to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
-            target="_blank"
-            download
-            onClick={handleClick}
-          >
-            <span>Download</span>
-          </Link>
-        </div>
-        <svg
-          className={`ham hamRotate ${isOverlayActive ? "activated" : ""}`}
-          viewBox="0 0 100 100"
-          width="70"
+            <path
+              className="line top"
+              d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+            ></path>
+            <path className="line middle" d="m 30,50 h 40"></path>
+            <path
+              className="line bottom"
+              d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+            ></path>
+          </svg>
+          <div className="magnet-1">
+            <a
+              className="button-download-mobile"
+              href={apk}
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              onClick={handleClick}
+            >
+              <span>Download</span>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <div
+        className={`overlay-menu ${isOverlayActive ? "overlay-active" : ""}`}
+      >
+        <Link
+          activeclassname="active"
+          aria-current="page"
+          className="nav-link active"
           onClick={toggle}
+          to="/"
         >
-          <path
-            className="line top"
-            d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
-          ></path>
-          <path className="line middle" d="m 30,50 h 40"></path>
-          <path
-            className="line bottom"
-            d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
-          ></path>
-        </svg>
-        <div className="magnet-1">
-          <Link
-            className="button-download-mobile"
-            to="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
-            target="_blank"
-            download
-            onClick={handleClick}
-          >
-            <span>Download</span>
-          </Link>
-        </div>
-      </nav>
-      {isOverlayActive ? (
-        <div className="overlay-menu overlay-active">
-          <a
-            activeclassname="active"
-            aria-current="page"
-            class="nav-link active"
-            href="/"
-          >
-            <div className="overlay-font">
-              <p>Home</p>
-            </div>
-          </a>
-          <a activeclassname="active" className="nav-link" href="/faq">
-            <div className="overlay-font">
-              <p>FAQ</p>
-            </div>
-          </a>
-          <a activeclassname="active" className="nav-link" href="/download">
-            <div className="overlay-font">
-              <p>Download</p>
-            </div>
-          </a>
-        </div>
-      ) : (
-        <></>
-      )}
-    </header>
+          <div className="overlay-font">
+            <p>Home</p>
+          </div>
+        </Link>
+        <Link
+          activeclassname="active"
+          className="nav-link"
+          onClick={toggle}
+          to="/about"
+        >
+          <div className="overlay-font">
+            <p>About Us</p>
+          </div>
+        </Link>
+        <Link
+          activeclassname="active"
+          className="nav-link"
+          onClick={toggle}
+          to="/faq"
+        >
+          <div className="overlay-font">
+            <p>FAQ</p>
+          </div>
+        </Link>
+        <Link
+          activeclassname="active"
+          className="nav-link"
+          onClick={toggle}
+          to="/contact"
+        >
+          <div className="overlay-font">
+            <p>Contact Us</p>
+          </div>
+        </Link>
+        <Link
+          activeclassname="active"
+          className="nav-link"
+          onClick={toggle}
+          to="/terms"
+        >
+          <div className="overlay-font">
+            <p>Terms & Conditions</p>
+          </div>
+        </Link>
+        <Link
+          activeclassname="active"
+          className="nav-link"
+          onClick={toggle}
+          to="/privacy"
+        >
+          <div className="overlay-font">
+            <p>Privacy Policy</p>
+          </div>
+        </Link>
+        <Link
+          activeclassname="active"
+          className="nav-link"
+          onClick={toggle}
+          to="/refund"
+        >
+          <div className="overlay-font">
+            <p>Refund Policy</p>
+          </div>
+        </Link>
+      </div>
+    </>
   );
 };
 
