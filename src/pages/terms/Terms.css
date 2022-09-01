@@ -1,15 +1,15 @@
 .term-container {
     height: auto;
-    width: 80%;
-    margin-left: 150px;
+    width: 100%;
+    margin: auto;
     justify-content: center;
     align-items: center;
     padding: 6em 0;
     color: white;
     margin-top: 0em;
     overflow-x: hidden !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
 .para-big {
@@ -44,30 +44,20 @@ ul {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 1250px) {
+@media screen and (max-width:768px) {
     .term-container {
-        margin-left: 60px;
-
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    .term-container {
-        margin-left: 80px;
-
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    .term-container {
-        margin-left: 40px;
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: center;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .term-container {
-        margin-left: 20px;
-        font-size: 15px
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: center;
     }
 
     .title {

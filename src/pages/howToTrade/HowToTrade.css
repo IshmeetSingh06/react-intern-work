@@ -175,8 +175,8 @@
     display: flex;
     flex: row;
     animation-name: floatText;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 .download-image {
@@ -290,7 +290,6 @@
     text-align: center;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-bottom: 80px;
 }
 
 .howtotrade-container {
@@ -357,6 +356,7 @@
     height: 215px;
     width: 325px;
 }
+
 
 .page-middle-2 {
     margin-top: 40px;
@@ -882,8 +882,23 @@
         justify-content: center;
         background-image: url(../../assets/bgmobile.png);
         background-size: contain;
-
+        animation-name: run3;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
     }
+
+    @keyframes run3 {
+        0% {
+            left: 100%;
+            transform: translateX(0);
+        }
+
+        100% {
+            left: 100%;
+            transform: translateX(-100%);
+        }
+    }
+
 
     .sun {
         bottom: 35px;

@@ -25,6 +25,7 @@ import Faq1 from "../../components/faq/Faq";
 import HowToTradeMob from "../../components/howToTrade/HowToTradeMob";
 
 const HowToTrade = () => {
+
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -69,7 +70,7 @@ const HowToTrade = () => {
           </div>
 
           <div className="page-middle-1">
-            <div className="page-middle-items">
+            <div className="page-middle-items square-animation">
               <img src={opinion} alt=""></img>
               <div className="mid-font-1">Have An Opinion?</div>
               <div className="bottom-font">
