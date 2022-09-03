@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import img1 from "../../assets/mob-img-1.png";
+import img1 from "../../assets/matchimg.png";
 import img2 from "../../assets/mob-img-2.png";
 import img3 from "../../assets/mob-img-3.png";
 

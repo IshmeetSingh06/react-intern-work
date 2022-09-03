@@ -13,7 +13,7 @@ import trade from "../../assets/trade.svg";
 import earn from "../../assets/earn.svg";
 import img1 from "../../assets/img-1.png";
 import img2 from "../../assets/img-2.png";
-import img3 from "../../assets/img-3.png";
+import img3 from "../../assets/matchimg.png";
 import thumbs from "../../assets/thumbs.png";
 import secure from "../../assets/secure.png";
 import privacy from "../../assets/trust.png";

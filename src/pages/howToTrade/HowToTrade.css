@@ -141,12 +141,12 @@
 @keyframes run {
     0% {
         left: 100%;
-        transform: translateX(0);
+        transform: translateX(100%);
     }
 
     100% {
-        left: 45%;
-        transform: translateX(-100%);
+        left: 0%;
+        transform: translateX(0%);
     }
 }
 
@@ -248,7 +248,7 @@
 
 .background-how-to-trade {
     width: 90vw;
-    margin-left: 100px;
+    margin: auto;
     background: #0E0F13;
     border-radius: 62px;
     margin-bottom: 40px;
@@ -838,7 +838,7 @@
 @media only screen and (max-width: 450px) {
     .page-top {
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
@@ -862,6 +862,7 @@
     }
 
     .page-top-text-side {
+        margin-left: 20px;
         margin-bottom: 40px;
     }
 
@@ -875,7 +876,7 @@
 
     .page-top-image-side {
 
-        left: -5vw;
+        left: 0vw;
         height: 320px;
         width: 100vw;
         margin: auto;
