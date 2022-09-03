@@ -44,10 +44,11 @@ const HowToTradeMob = () => {
             <div className="slide-1">
               <img className="image-1" src={img2} alt="" />
               <div className="slide-1-text">
-                Select an event based on your expertise
+                Purchase the shares of predicted outcome
                 <br />
                 <span>
-                  Predict the outcome & TakTik to maximize your earnings
+                  Click on the option and set the Quantity, Price and Swip right
+                  to Buy
                 </span>
               </div>
             </div>
@@ -56,10 +57,11 @@ const HowToTradeMob = () => {
             <div className="slide-1">
               <img className="image-1" src={img3} alt="" />
               <div className="slide-1-text">
-                Select an event based on your expertise
+                Awaits results, Earn & Withdraw profits
                 <br />
                 <span>
-                  Predict the outcome & TakTik to maximize your earnings
+                  If your option is correct after the settlement period, your
+                  earning will be added to your wallet
                 </span>
               </div>
             </div>

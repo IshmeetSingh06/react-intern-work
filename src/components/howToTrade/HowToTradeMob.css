@@ -115,7 +115,6 @@
 }
 .slide-1-text {
     margin: auto;
-
     flex-direction: column;
     font-size: 2rem;
     text-align: center;
@@ -220,7 +219,10 @@
     }
 
     .slide-1-text {
-        font-size: 2rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1.4rem;
+        line-height: 30px;
     }
 
     .background-crousel {
@@ -229,6 +231,7 @@
 
     .slide-1-text span {
         font-size: 12px;
+        line-height: 0px;
         align-self: center;
         text-align: center;
     }
@@ -237,8 +240,7 @@
 @media only screen and (max-width: 401px) {
     .slide-1 img {
         margin: auto;
-        margin-left: 16px;
-        margin-top: -10vh;
+        margin-top: -7vh;
         justify-content: center;
         width: 70vw;
         height: auto;

@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.639797ba.css",
-    "main.js": "/static/js/main.ccc08262.js",
+    "main.css": "/static/css/main.9275acd6.css",
+    "main.js": "/static/js/main.9552237e.js",
     "static/media/animation_500_l798wqef.gif": "/static/media/animation_500_l798wqef.2a0411bdf58b00e84fe2.gif",
     "static/media/weather": "/static/media/weather.92cf41a8bd9bf672639c",
     "static/media/animation_500_l7995k5y.gif": "/static/media/animation_500_l7995k5y.d23922b3e140b486d197.gif",
-    "static/media/img-3.png": "/static/media/img-3.24c955dc3b21d02f0df1.png",
+    "static/media/matchimg.png": "/static/media/matchimg.e4f007f13ff6034ed9b4.png",
     "static/media/bgimage.png": "/static/media/bgimage.fb86e759f702ac855a4f.png",
     "static/media/bgmobile.png": "/static/media/bgmobile.33948c77d5c43aee0f3b.png",
-    "static/media/mob-img-1.png": "/static/media/mob-img-1.2e693117cd4ea90821c4.png",
     "static/media/mob-img-3.png": "/static/media/mob-img-3.b84ccc14c728bf9cea5e.png",
     "static/media/img-2.png": "/static/media/img-2.835dcb09bbcbc505b7b9.png",
     "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.c268e80ba67c4a294054.ttf",
@@ -29,11 +28,11 @@
     "static/media/opinion.svg": "/static/media/opinion.629388a99b7bbc075a080f357e3919e4.svg",
     "static/media/trade.svg": "/static/media/trade.39c0bc03d58878971e48c13fdda5817d.svg",
     "index.html": "/index.html",
-    "main.639797ba.css.map": "/static/css/main.639797ba.css.map",
-    "main.ccc08262.js.map": "/static/js/main.ccc08262.js.map"
+    "main.9275acd6.css.map": "/static/css/main.9275acd6.css.map",
+    "main.9552237e.js.map": "/static/js/main.9552237e.js.map"
   },
   "entrypoints": [
-    "static/css/main.639797ba.css",
-    "static/js/main.ccc08262.js"
+    "static/css/main.9275acd6.css",
+    "static/js/main.9552237e.js"
   ]
 }
