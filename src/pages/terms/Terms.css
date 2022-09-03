@@ -47,16 +47,16 @@ ul {
 @media screen and (max-width:768px) {
     .term-container {
         
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
         justify-content: center;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .term-container {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
         justify-content: center;
     }
 

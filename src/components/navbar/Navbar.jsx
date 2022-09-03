@@ -14,7 +14,6 @@ const Navbar = () => {
   };
   const toggle1 = () => {
     setOverlayActive(!isOverlayActive);
-    navigate("/");
     window.scrollTo(6000, 6000);
   };
 

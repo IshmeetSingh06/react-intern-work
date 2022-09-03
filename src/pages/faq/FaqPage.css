@@ -1,6 +1,6 @@
 .faq-style-wrapper {
     height: auto;
-    width: 80%;
+    width: 100%;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,13 @@
     color: white;
     margin-top: 0em;
     overflow-x: hidden !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 @media only screen and (max-width: 450px) {
     .faq-style-wrapper{
-        margin-left: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
