@@ -47,8 +47,7 @@ const HowToTradeMob = () => {
                 Purchase the shares of predicted outcome
                 <br />
                 <span>
-                  Click on the option and set the Quantity, Price and Swip right
-                  to Buy
+                  Click the option and set the Quantity,Price and Swipe right to Buy
                 </span>
               </div>
             </div>

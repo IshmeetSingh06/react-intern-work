@@ -3,6 +3,22 @@ import "./Terms.css";
 const Terms = () => {
   return (
     <div className="term-container">
+      <strong className="title">Terms and Condititons</strong>
+      <br />
+      <div class="post-on">
+        <br/>
+        <span class="font-meta">Posted on</span>
+        <div class="c-blog__date">
+          <span class="posted-on">
+            <a href="https://applytaktik.com/privacy" rel="bookmark">
+              14 Sep 2022
+            </a>
+          </span>
+          <span class="post-category">
+            <br />
+          </span>
+        </div>
+      </div>
       <div className="para-big">
         <p>
           These Terms and Conditions (“Terms”) are published in accordance with

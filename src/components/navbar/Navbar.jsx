@@ -43,7 +43,7 @@ const Navbar = () => {
     }
   };
   const handleContact = () => {
-    window.scrollTo(6000, 6000);
+    window.scrollTo(0, document.body.scrollHeight);
   };
 
   return (
@@ -92,7 +92,7 @@ const Navbar = () => {
             </div>
             <a
               className="button-download"
-              href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+              href="https://applytaktik.com/apk"
               target="_blank"
               rel="noopener noreferrer"
               download

@@ -5,21 +5,21 @@ const Refund = () => {
   
   return (
     <div className="refund_rules">
-      <h1>Refund and Cancellation Policy </h1>
+      <div className="title">Refund and Cancellation Policy </div>
 
       <p>
         Cancellation and Refund Policy As a User/Member on the TakTik Platform
         you are bound by our cancellation and refund policy which shall be read
-        in tandem with our Terms and Conditions, Privacy Policy and Rulebook.
+        in tandem with our Terms and Conditions, Privacy Policy, and Rulebook.
         Cancellation Policy.
       </p>
       <br />
       <h4>By Company</h4>
       <br />
       <p>
-        Any Event hosted on the TakTik Platform, may be canceled by the Company
+        Any Event hosted on the TakTik Platform may be canceled by the Company
         at their sole discretion on the happening of any of the instances
-        mentioned hereinbelow:
+        mentioned here in below:
       </p>
 
       <ul>
@@ -84,8 +84,8 @@ const Refund = () => {
         participants/users on the Event shall be provided a refund of the
         amounts traded on the canceled event.
         <br /> <br />
-        By User (Will the User be allowed to cancel a trade/position which he
-        has placed on the TTakTik Platform? If yes, would he be refunded?){" "}
+        By User (Will the User be allowed to cancel a trade/position that he has
+        placed on the TTakTik Platform? If yes, would he be refunded?)
         <br /> <br />
         If a User wishes to cancel their subscription of the TakTik Platforms
         and its services during an event in which he is participating then such
@@ -98,16 +98,17 @@ const Refund = () => {
         the second component of the wallet shall be reserved for “Real Money”.
         The TakTik Platform shall at its sole discretion have the power to
         decide the value and control the usage of the “Promotional Money”
-        available to the Users, as the value and usage of the “Promotiona Money”
-        on the TakTik Platform would keep fluctuating based on different factors
-        decided by the TakTik Platform.
+        available to the Users, as the value and usage of the “Promotional
+        Money” on the TakTik Platform would keep fluctuating based on different
+        factors decided by the TakTik Platform.
         <br /> <br />
         In case of Event cancellation, the Refund shall be transferred to both
         the components of the User’s TakTik wallet, depending on how much has
         been invested from which component and the same shall be transferred as
         invested. No Refund Instances In an instance, where the TakTik Platform
         an Event is completed and the bid has been matched, then no refund shall
-        be initiated. <br /> <br />
+        be initiated.
+        <br /> <br />
         Miscellaneous In case of any inadvertent, where the TakTik Platform
         incorrectly initiates any settlement, then the said transaction or
         settlement shall be immediately reversed and the correct winning or
@@ -143,9 +144,9 @@ const Refund = () => {
         Post the requests of withdrawal, users will get the amount credited to
         their bank account within 48 hours. Rs 5 will be deducted on every
         withdrawal as a processing fee. <br /> <br />
-        <b>“Promotional Money”</b> shall mean virtual money which the TakTik
-        assigns to the Users for placing bids in the Events and whose value
-        depends on the offer going on the Event.
+        <b>“Promotional Money”</b> shall mean virtual money
+        which TakTik assigns to the Users for placing bids in the Events and
+        whose value depends on the offer going on the Event.
       </p>
     </div>
   );

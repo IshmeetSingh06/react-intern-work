@@ -49,7 +49,7 @@ const HowToTrade = () => {
               </div>
               <div className="download-text">
                 <a
-                  href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+                  href="https://applytaktik.com/apk"
                   target="_blank"
                   rel="noopener noreferrer"
                   download
@@ -114,7 +114,7 @@ const HowToTrade = () => {
                     <br />
                     <div className="small-text">
                       Click on the option and set the <br /> Quantity, Price and
-                      Swip right to Buy
+                      Swipe right to Buy
                     </div>
                   </div>
 
@@ -132,7 +132,7 @@ const HowToTrade = () => {
                     </div>
                     <br />
                     <div className="small-text">
-                      Predict the outcome & TakTik to <br /> maximize your
+                      Predict the outcome & Apply TakTik to  maximize your
                       earnings
                     </div>
                     <img className="thumb-img" src={thumbs} alt=""></img>
@@ -185,7 +185,7 @@ const HowToTrade = () => {
                 <img className="trust-us-images" src={privacy} alt=""></img>
                 <div className="mid-font-2">Privacy</div>
                 <div className="bottom-font">
-                  We respect the value of your data and do not share with anyone
+                  We respect your Privacy and do not share your data with anyone
                   without your consent
                 </div>
               </div>
