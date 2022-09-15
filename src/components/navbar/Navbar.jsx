@@ -120,7 +120,7 @@ const Navbar = () => {
           <div className="magnet-1">
             <a
               className="button-download-mobile"
-              href="https://taktikapk.s3.ap-south-1.amazonaws.com/taktik.apk"
+              href="https://applytaktik.com/apk"
               target="_blank"
               rel="noopener noreferrer"
               download
